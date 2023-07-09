@@ -84,6 +84,7 @@ body {
 
 .main-navigation {
   align-self: flex-end;
+  width: 700px;
 }
 
 .main-navigation-list {
