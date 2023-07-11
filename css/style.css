@@ -41,8 +41,7 @@ body {
   margin: 0;
   background: #ffffff;
   height: 100%; 
-  padding: 0;
-  position: relative;
+  
 }
 
 .shadow {
@@ -52,6 +51,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  position: relative;
 }
 
 /* Стили header */
