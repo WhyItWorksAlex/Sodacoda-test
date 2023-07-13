@@ -8,10 +8,10 @@
   </head>
   <body>   
     <header class="main-header" id="header">
-      <div class="header-comtainer"> 
+      <div class="header-container"> 
         <div class="header-logo">
           <a class="header-logo-link" href="#">
-            <img src="img/sodacoda-logo2.png" alt="Логотип Sodacoda" height="80">
+            <img src="img/sodacoda-logo.png" alt="Логотип Sodacoda" height="80">
           </a>
         </div>
         <nav class="main-navigation">
@@ -21,6 +21,9 @@
             </li>
             <li class="main-navigation-item">
               <a class="main-navigation-link" href="#">Каталог</a>
+            </li>
+            <li class="main-navigation-item">
+              <a class="main-navigation-link" href="#">Размерная сетка</a>
             </li>
             <li class="main-navigation-item">
               <a class="main-navigation-link" href="#">О нас</a>
@@ -39,17 +42,16 @@
       <div class="page-main-container">
         <h1 class="visually-hidden">Официальный магазин бренда корректирующего и нижнего белья Sodacoda</h1>
         <section class="hero">
-          <h2 class="section-title welcome-words">Новая коллекция от европейского бренда Sodacoda22278</h2>
+          <img class="hero-logo" src="img/sodacoda-logo-color.png" width="150" alt="Логотип Sodacoda">
+          <h2 class="section-title welcome-words">Корректирующее белье европейского бренда Sodacoda</h2>
         </section>
         <section class="catalogue-preview">
-          <h2 class="section-title catalogue-preview-title">
-            <a class="catalogue-preview-title-link" href="#">Каталог</a>
-          </h2>
+          <h2 class="section-title catalogue-preview-title">Бестселлеры</h2>
           <ul class="catalogue-preview-list">
             <li class="catalogue-preview-item">            
               <img class="catalogue-preview-item-photo" src="img/model-3816s.jpg" width="200" alt="Модель трусов 3816s">            
               <h3 class="catalogue-preview-item-title">Модель 3816s</h3>            
-              <span class="catalogue-preview-item-price">1280р</span>              
+              <span class="catalogue-preview-item-price"><del>1890р</del> 1280р</span>              
               <ul class="catalogue-preview-buttons">
                 <li class="catalogue-preview-button">
                   <a class="button button-more" href="#">Подробнее</a>
@@ -111,9 +113,10 @@
               </ul>
             </li>
           </ul>
+          <a class="button button-to-catalogue" href="#">Перейти в каталог</a>
         </section>
         <section class="advantages">
-          <h2 class="section-title section-advantage-title">Преимущества</h2>
+          <h2 class="visually-hidden">Преимущества</h2>
           <div class="advantage-points-wrapper">
             <div class="advantage-description">
               <h3 class="adtantage-common-title">Естественность. Женственность. Самоуверенность.</h3>
@@ -132,70 +135,20 @@
               </div>
             </div>
           </div>
-        </section>
-        <section class="advantages">
-          <h2 class="section-title section-advantage-title">Преимущества</h2>
-          <div class="advantage-points-wrapper">
-            <div class="advantage-description">
-              <h3 class="adtantage-common-title">Естественность. Женственность. Самоуверенность.</h3>
-              <p class="adtantage-common-description">Sodacoda помогает женщинам достичь идеального образа с помощью продуктов, которые улучшат или изменят их естественные изгибы, тем самым укрепив их уверенность и самооценку.</p>
-            </div>
-            <div class="advantage-points">
-              <img class="advantage-image" src="img/model-advantages.jpg" width="600" height="430" alt="Образец товара">
-              <div class="advantage-point-wrapper advantage-point-one-wrapper">
-                <p class="advantage-point-description">Подчеркивает вашу фигуру</p>
-              </div>
-              <div class="advantage-point-wrapper advantage-point-two-wrapper">
-                <p class="advantage-point-description">Анатомические вставки</p>
-              </div>
-              <div class="advantage-point-wrapper advantage-point-three-wrapper">
-                <p class="advantage-point-description">Дышаший нейлоновый материал</p>
-              </div>
-            </div>
+        </section> 
+        <section class="questions">
+          <h2 class="section-title">Нас часто спрашивают</h2>
+          <div class="toggle-box-wrapper">
+            <input class="toggle-box" id="question-1" type="checkbox" >
+            <label for="question-1">1. Как выбрать размер?</label>
+            <p>Выбрать размер через интернет бывает непросто! При принятии решения о том, какой размер купить, пожалуйста, следуйте <a class="size-table-link" href=""> таблицам размеров</a>. Если у вас есть какие-либо вопросы, пожалуйста, свяжитесь с нами.</p>
           </div>
-        </section>
-        <section class="advantages">
-          <h2 class="section-title section-advantage-title">Преимущества</h2>
-          <div class="advantage-points-wrapper">
-            <div class="advantage-description">
-              <h3 class="adtantage-common-title">Естественность. Женственность. Самоуверенность.</h3>
-              <p class="adtantage-common-description">Sodacoda помогает женщинам достичь идеального образа с помощью продуктов, которые улучшат или изменят их естественные изгибы, тем самым укрепив их уверенность и самооценку.</p>
-            </div>
-            <div class="advantage-points">
-              <img class="advantage-image" src="img/model-advantages.jpg" width="600" height="430" alt="Образец товара">
-              <div class="advantage-point-wrapper advantage-point-one-wrapper">
-                <p class="advantage-point-description">Подчеркивает вашу фигуру</p>
-              </div>
-              <div class="advantage-point-wrapper advantage-point-two-wrapper">
-                <p class="advantage-point-description">Анатомические вставки</p>
-              </div>
-              <div class="advantage-point-wrapper advantage-point-three-wrapper">
-                <p class="advantage-point-description">Дышаший нейлоновый материал</p>
-              </div>
-            </div>
+          <div class="toggle-box-wrapper">
+            <input class="toggle-box" id="question-2" type="checkbox" >
+            <label for="question-2">2. Как выбрать размер?</label>
+            <p>Для выбора размера, вы можете воспользоваться .......</p>
           </div>
-        </section>
-        <section class="advantages">
-          <h2 class="section-title section-advantage-title">Преимущества</h2>
-          <div class="advantage-points-wrapper">
-            <div class="advantage-description">
-              <h3 class="adtantage-common-title">Естественность. Женственность. Самоуверенность.</h3>
-              <p class="adtantage-common-description">Sodacoda помогает женщинам достичь идеального образа с помощью продуктов, которые улучшат или изменят их естественные изгибы, тем самым укрепив их уверенность и самооценку.</p>
-            </div>
-            <div class="advantage-points">
-              <img class="advantage-image" src="img/model-advantages.jpg" width="600" height="430" alt="Образец товара">
-              <div class="advantage-point-wrapper advantage-point-one-wrapper">
-                <p class="advantage-point-description">Подчеркивает вашу фигуру</p>
-              </div>
-              <div class="advantage-point-wrapper advantage-point-two-wrapper">
-                <p class="advantage-point-description">Анатомические вставки</p>
-              </div>
-              <div class="advantage-point-wrapper advantage-point-three-wrapper">
-                <p class="advantage-point-description">Дышаший нейлоновый материал</p>
-              </div>
-            </div>
-          </div>
-        </section>
+        </section>       
       </div>
     </main>
     <footer class="main-footer">      
