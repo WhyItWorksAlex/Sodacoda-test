@@ -164,7 +164,6 @@ body {
 .page-main {
   flex-grow: 1;
   margin: 84px 0 30px;
-  margin-bottom: 30px;
   background-color: #fdeade73;
 }
 
@@ -238,7 +237,7 @@ body {
   padding: 0;
   display: grid;
   grid-template-columns: 560px 280px 280px;
-  grid-template-rows: 250px 250px;
+  grid-template-rows: 300px 300px;
   gap: 25px;
 }
 
